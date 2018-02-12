@@ -12,14 +12,18 @@ Create and use 2 class - 20 points
 }
 
 .left {
-  width: 30%;
+  width: 20%;
   margin: 0;
   padding: 0;
 }
 
 .right {
-  width: 70%;
+  width: 50%;
   margin-left: 200px;
+}
+
+.rightright {
+  width: 30%;
 }
 
 
@@ -63,4 +67,9 @@ a:hover {
 /*this is my class for custom line spacing*/
 .sectionheader {
   line-height: 5px;
+}
+
+/*this is how I added some padding to the bottom of my lists*/
+ul {
+  padding-bottom: 10px;
 }
