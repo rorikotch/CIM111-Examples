@@ -1,60 +1,66 @@
 /*requirements for resume styling assignmet
 
 Create 2 links
-Set the color of the links and remove the underline. - 10 points
-Style :hover effect. - 10 points
-Use a custom font. - 10 points
-Make sure you use an external stylesheet using the tag. - 10 Points
-Style 2 section html tag - 10 points
-ie p, b, address, etc
+
 Create and use 5 id - 25 points
 Create and use 2 class - 20 points
-Must use each class more the once
-Make sure the webpage and css works. - 5 points
 
 */
 
-h1 {
-  color: red;
-  font-family: "Rammetto One", sans-serif;
+.column {
+    float: left;
+}
+
+.left {
+  width: 30%;
   margin: 0;
-  padding-bottom: 10px;
-
+  padding: 0;
 }
 
-section {
-  /* border: 1px solid black; */
-  background-color: yellow;
-}
-
-img {
-  border: 10px solid red;
+.right {
+  width: 70%;
+  margin-left: 200px;
 }
 
 
-.paragraph {
-  color: green;
-  width: 320px;
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
-#header {
+header {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  position: fixed;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  white-space: pre-line;
+  text-align:center;
+  width:1em;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
   text-decoration: underline;
 }
 
+/*this is how I styled my links on the page */
 a {
   text-decoration: none;
-  color: pink;
-  background-color: black;
+  color: black;
+  font-style: italic;
 }
 
-.italic {
-  text-decoration: underline;
-  color: green;
-  font-family: sans-serif;
+/*this is how you do a hover effect*/
+a:hover {
+  color: grey;
 }
 
-h3 {
-  color: red;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900i;
+/*this is my class for custom line spacing*/
+.sectionheader {
+  line-height: 5px;
 }
