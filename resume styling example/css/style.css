@@ -7,6 +7,14 @@ Create and use 2 class - 20 points
 
 */
 
+
+/* These are the styles for the bar of color on the top
+#colorbar {
+  background-color: green;
+  height: 50px;
+  width: 100%;
+} */
+
 .column {
     float: left;
 }
@@ -24,6 +32,10 @@ Create and use 2 class - 20 points
 
 .rightright {
   width: 30%;
+}
+
+ul.custom {
+  list-style-type: square;
 }
 
 
