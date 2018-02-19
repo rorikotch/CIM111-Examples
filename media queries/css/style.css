@@ -11,15 +11,17 @@ ul {
    padding: 0;
    overflow: hidden;
    background-color: #333;
+   font-family: 'Roboto', sans-serif;
 }
 
 li {
   float: left;
   padding: 10px;
+
 }
 
 li a {
-  display: block;
+    display: block;
    color: white;
    text-align: center;
    padding: 14px 16px;
@@ -37,4 +39,19 @@ img {
 
 .container {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.box {
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
