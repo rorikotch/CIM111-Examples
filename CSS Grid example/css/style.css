@@ -17,7 +17,6 @@ ul {
 li {
   float: left;
   padding: 10px;
-
 }
 
 li a {
@@ -48,10 +47,19 @@ img {
   max-width: 100%;
 }
 
-@media (max-width: 800px) {
+.box2 {
+  background-color: red;
+}
+
+.box2:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* @media (max-width: 800px) {
   .container {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
-}
+} */
