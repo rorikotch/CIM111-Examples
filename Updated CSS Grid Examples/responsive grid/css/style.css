@@ -44,6 +44,9 @@ nav ul {
 
 nav ul li{
   list-style: none;
+  /*This is how you make the navigation bar horizontal*/
+  /* display: inline-block;
+  padding-right: 20px;  */
 
 }
 
