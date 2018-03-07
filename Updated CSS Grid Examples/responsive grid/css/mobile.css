@@ -25,3 +25,7 @@ main {
   padding-bottom: 20px;
 
 }
+/* This is how I styeld the nav on mobile if it's horizontal & you want it centered  */
+/* nav ul li {
+  margin-left: 0;
+} */
