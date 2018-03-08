@@ -1,0 +1,16 @@
+#container {
+  display: grid;
+  grid-template-columns: 300px 800px ;
+  grid-gap: 10px;
+  width: 24.99999%;
+}
+
+div.box img {
+  width: 100%;
+  height: auto%;
+}
+
+.box {
+  padding: 20px;
+  background-color: lightblue;
+}

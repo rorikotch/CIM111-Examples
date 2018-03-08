@@ -6,16 +6,20 @@ body {
   display: grid;
   grid-template-columns: 25% 25% 25%;
   grid-gap: 10px;
+  grid-template-areas: "header"
+                      "main"
+                      "footer";
+
 }
 
 .item {
-  background: rgba(0, 0, 0, 0.1);
+  /* background: rgba(0, 0, 0, 0.1); */
   border-radius: 5px;
   padding: 2em;
 }
 
 .large {
-  background: rgba(255, 0, 0, 0.25);
+  /* background: rgba(255, 0, 0, 0.25); */
   grid-column: auto / span 3;
   grid-row: auto / span 2;
 }
