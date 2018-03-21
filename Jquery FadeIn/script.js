@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $("button").click(function(){
-        $("box1").fadeIn();
+        $("box1").fadeIn("slow");
         $("#box2").fadeIn("slow");
         $("#box3").fadeIn("slow");
         $("#box4").fadeIn("slow");
-        $("#box5").fadeIn("2000");
+        $("#box5").fadeIn("fast");
         $("#box6").fadeIn("3000");
     });
     $("button").click(function(){
