@@ -5,6 +5,7 @@
     <head>
         <title>My super awsome website!!!</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
 
         <style>
             .box{
@@ -52,15 +53,18 @@
                 $("#clickBox").show();
                 $("#clickBox").css("background-color", "pink");
             });
+
             $("#hover").mouseenter(function(){
                 $("#hoverBox").hide();
             });
             $("#hover").mouseleave(function(){
                 $("#hoverBox").show();
             });
+
             $("#toggle").click(function(){
                 $("#toggleBox").toggle(1000);
             });
+
             $("#button1").click(function(){
                 $("#replace").html("<p>More information #1</p>");
             });
@@ -68,7 +72,7 @@
                 $("#replace").html("<p>More information #2</p>");
             });
             $("#button3").click(function(){
-                $("#replace").html("<img src='images/penguin.jpg' width=100 />");
+                $("#replace").html("<img src='penguin.jpg' width=100 />");
             });
         });
         </script>
