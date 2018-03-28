@@ -2,7 +2,6 @@ $(document).ready(function(){
     $("#hide").click(function(){
         $(".imageone").hide();
     });
-
     $("#show").click(function(){
         $(".imageone").show();
     });
@@ -10,8 +9,7 @@ $(document).ready(function(){
     $(".screen").hover(function(){
         $(".screen").fadeOut(1000);
   });
-
-  $(".imghover").hover(function(){
+    $(".imghover").hover(function(){
       $(".screen").fadeIn(1000);
 });
 
@@ -27,6 +25,8 @@ $("#clickhere").click(function(){
 $("#replacetext").hover(function(){
 $("#replace").html("<p>Repeat the process and enjoy!</p>");
 });
+
+
 
 
 
