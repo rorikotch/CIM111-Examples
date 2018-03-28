@@ -26,10 +26,7 @@ $("#replacetext").hover(function(){
 $("#replace").html("<p>Repeat the process and enjoy!</p>");
 });
 
-
-
-
-
+});
 
 
 });
